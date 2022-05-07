@@ -39,6 +39,7 @@ function addContainer() {
     for (let item of rows) {
         const keyboardRow = document.createElement("div");
         keyboardRow.classList.add(`${item}`);
+        keyboardRow.id = 'keyboard-row';
         keyboard.append(keyboardRow);
     }
 }
