@@ -50,15 +50,14 @@
     transition: 0.3s;
 }
 
-.key.active {
-    background: #20bfd4;
-    border-radius: 50px;
-}
-
-
 .key:hover {
     background-color: #444444;
     color: #dfdfdf;
+}
+
+.key.active {
+    background: #20bfd4;
+    border-radius: 50px;
 }
 
 #keyBackspace {
